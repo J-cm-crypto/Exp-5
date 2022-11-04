@@ -1,0 +1,17 @@
+/*This is a single line comment*/
+input[type=text]
+{
+    background-color: rgb(229, 229, 217);
+    color: blue;
+    font-size: 16px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+input[type=text]:focus
+{
+    background-color: beige;
+    outline: 1px solid blue;
+}
